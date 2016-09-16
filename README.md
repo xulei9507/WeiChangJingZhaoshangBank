@@ -1,0 +1,2 @@
+# WeiChangJingZhaoshangBank
+仿招商银行招聘微场景jQuery+zepto+animate
