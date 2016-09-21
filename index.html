@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--屏幕缩放比兼容me7-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="assets/css/common.css" />
+		<link rel="stylesheet" href="css/layout.css" />
+		<link rel="stylesheet" href="css/ani.css" />
+	</head>
+	<body>
+		<div class="mask">请将屏幕竖向浏览</div>
+		<div class="music">
+			<img src="images/musicBtn.png" id="musicBtn"/>
+			<audio id="ado" src="images/music.mp3" ></audio>
+		</div>
+		<!--div.page_box#page_box>div.page_slide*5-->
+		<div class="page_box" id="page_box">
+			<div class="page_slide show">
+				<div class="index-build"><img src="images/indexBuilding.png" class="fadeIn animated delay_300ms"></div>
+				<div class="index-cloud zoomIn animated delay_800ms"><img src="images/indexCloud.png" class="scaleAlways animated infinite alternate delay_800ms"></div>
+				<div class="index-stars zoomIn animated delay_800ms"><img src="images/indexStars.png" class="scaleAlways animated infinite alternate delay_800ms"></div>
+				<div class="index-elements zoomIn animated delay_800ms"><img src="images/indexElements.png" class="scaleAlways animated infinite alternate delay_800ms"></div>
+				<div class="index-text"><img src="images/indexTxt.png" class="fadeIn animated delay_500ms"></div>
+				<div class="index-flowers"><img src="images/indexFlowers01.png" class="zoomIn animated delay_700ms"><img src="images/indexFlowers02.png" class="zoomIn animated delay_800ms"></div>
+				<div class="index-flight zoomInDown animated delay_1s"><img src="images/indexFlight.png" class="scaleAlways animated infinite alternate delay_300ms"></div>
+				<div class="arrowUp"><img src="images/arrow-up.png" class="fadeInUp animated infinite alternate"></div>
+			</div>
+			<div class="page_slide hide">
+				<div class="wasBg"><img src="images/wasBg.jpg" class="fadeIn animated delay_300ms"></div>
+				<div class="wasStar"><img src="images/wasStar.png" class="fadeInRight animated delay_500ms"></div>
+				<div class="wasText"><img src="images/wasFarm.png" class="fadeIn animated delay_600ms"><img src="images/wasIT.png" class="fadeIn animated delay_900ms"></div>
+				<div class="arrowUp"><img src="images/arrow-up.png" class="fadeInUp  animated infinite alternate delay_900ms"></div>
+			</div>
+			<div class="page_slide hide">
+				<div class="earlyPage fadeOut animated delay_5100ms">
+					<div class="earlyBg"><img src="images/earlyBg.jpg" class="fadeIn animated delay_300ms"></div>
+					<div class="earlyBuilding fadeOut animated delay_2400ms"><img src="images/earlyBuilding.png" class="fadeIn animated delay_600ms"></div>
+					<div class="earlyTitle fadeOut animated delay_2400ms"><img src="images/earlyTitle.png" class="fadeIn animated delay_1200ms"></div>
+					<div class="lastBusStation fadeOut animated delay_4100ms"><img src="images/lastBusStation.png" class="fadeIn animated delay_2600ms"></div>
+					<div class="lastBusTitle fadeOut animated delay_4100ms"><img src="images/lastBusTitle.png" class="fadeIn animated delay_2800ms"></div>
+					<div class="lastBusAvatar fadeOut animated delay_4100ms"><img src="images/lastBusAvatar.png" class="bounceInRight animated delay_2800ms"></div>
+					<div class="bus slideOutLeft animated delay_2900ms"><img src="images/bus.png" class="fadeIn animated delay_2700ms"></div>
+				</div>
+				<div class="myTeamBg"><img src="images/myTeamBg.jpg" class="fadeIn animated delay_5200ms"></div>
+				<div class="myTeamWall"><img src="images/myTeamWall.png" class="fadeIn animated delay_5400ms"></div>
+				<div class="myTeamAvatar"><img src="images/myTeamAvatar.png" class="fadeIn animated delay_5800ms"></div>
+				<div class="myTeamTxt"><img src="images/myTeamTxt.png" class="zoomIn animated delay_6300ms"></div>
+				<div class="myTeamTxt01"><img src="images/myTeamTxt01.png" class="zoomIn animated delay_6700ms"></div>
+				<div class="myTeamTxt02"><img src="images/myTeamTxt02.png" class="zoomIn animated delay_7100ms"></div>
+				<div class="myTeamTxt03"><img src="images/myTeamTxt03.png" class="zoomIn animated delay_7700ms"></div>
+				<div class="myteamWhereTxt"><img src="images/myteamWhereTxt.png" class="fadeIn animated delay_8300ms"></div>
+				<div class="arrowUp"><img src="images/arrow-up.png" class="fadeInUp  animated infinite alternate delay_8600ms"></div>
+			</div>
+			<div class="page_slide hide">
+				<div class="lightOffBg"><img src="images/lightOffBg.jpg" class="fadeIn animated delay_100ms"></div>
+				<div class="cornerWall"><img src="images/cornerWall.png" class="fadeIn animated delay_100ms"></div>
+				<div class="cornerTitle"><img src="images/cornerTitle.png" class="bounceInDown animated delay_300ms"></div>
+				<div class="lightOff"><img src="images/lightOff.png" class="fadeIn animated delay_100ms"></div>
+				<div class="clickGuide fadeIn animated delay_1300ms"><img src="images/clickGuide.png" class="scaleAlways animated infinite alternate delay_300ms"></div>
+				<div class="lightOnPage">
+					<div class="lightOnBg"><img src="images/lightOnBg.jpg" class="fadeIn animated delay_900ms"></div>
+					<div class="lightOn"><img src="images/lightOn.png"></div>
+					<div class="lightFlowers"><img src="images/lightFlowers.png" class="fadeIn animated delay_900ms"></div>
+					<div class="weKnowYou"><img src="images/weKnowYou.png" class="fadeIn animated delay_600ms"></div>
+				</div>
+			</div>
+			<div class="page_slide hide">
+				<div class="aboutBg"><img src="images/aboutBg.jpg"></div>
+				<div class="footCity"><img src="images/footCity.jpg" class="fadeIn animated delay_600ms"></div>
+				<div class="footAvatar"><img src="images/footAvatar.png" class="zoomIn animated delay_900ms"></div>
+				<div class="footTa fadeOut animated delay_1200ms"><img src="images/footTa.png" class="bounceInLeft animated delay_400ms"></div>
+				<div class="footTx"><img src="images/footTx.png" class="zoomIn animated delay_1500ms"></div>
+				<div class="arrowUp"><img src="images/arrow-up.png" class="fadeInUp  animated infinite alternate delay_2200ms"></div>
+			</div>
+			<div class="page_slide hide">
+				<div class="runBg"><img src="images/runBg.jpg"></div>
+				<div class="runAvatar"><img src="images/runAvatar.png" class="zoomIn animated delay_1100ms"></div>
+				<div class="runTa fadeOut animated delay_1400ms"><img src="images/runTa.png" class="bounceInLeft animated delay_400ms"></div>
+				<div class="runTxt"><img src="images/runTxt.png" class="zoomIn animated delay_1500ms"></div>
+				<div class="arrowUp"><img src="images/arrow-up.png" class="fadeInUp  animated infinite alternate delay_2200ms"></div>
+			</div>
+			<div class="page_slide hide">
+				<div class="salaryBg"><img src="images/salaryBg.png" class="fadeIn animated delay_1200ms"></div>
+				<div class="salaryAvatar"><img src="images/salaryAvatar.png"  class="fadeIn animated delay_1600ms"></div>
+				<div class="salaryTa fadeOut animated delay_1400ms"><img src="images/salaryTa.png" class="bounceInLeft animated delay_200ms"></div>
+				<div class="salaryTxt"><img src="images/salaryTxt.png" class="zoomIn animated delay_1900ms"></div>
+				<div class="arrowUp"><img src="images/arrow-up.png" class="fadeInUp  animated infinite alternate delay_2300ms"></div>
+			</div>
+			<div class="page_slide hide">
+				<div class="introFlowers"><img src="images/introFlowers.png" class="scaleAlways2 animated2 infinite alternate"></div>
+				<div class="intro-txt">
+                    <div class="intro-txt-inner">
+                        <p>招商银行是世界500强企业，也是我国第一家完全有企业法人持股的股份制商业银行。</p>
+                        <p>招银网络科技（简称招银科技）是招商银行的全资子公司，致力于为招商银行全球化发展提供强有力的软件开发及技术支持。公司以成为中国银行业最强大脑为己任，在彼此信任和尊重的基础上，追求高标准的交付和价值创造。现有深圳、杭州两家分支机构，共同担负着招商银行电子信息化的重任。</p>
+                        <p>这里是中国最具活力的银行，这里是中国最优秀的金融IT团队之一。如果您足够优秀，那么这里将会是您智慧闪光、价值实现和梦想腾飞的舞台，我们热忱期待您的加盟。</p>
+                    </div>
+                </div>
+                <div class="introLogo"><img src="images/introLogo.png"></div>
+                <div class="introCloudy"><img src="images/introCloudy.png"></div>
+                <div class="introAvatar"><img src="images/introAvatar.png"></div>
+                <div class="introStar"><img src="images/introStar.png" class="fade animated2 alternate infinite delay_300ms"></div>
+				<div class="arrowUp"><img src="images/arrow-up.png" class="fadeInUp  animated infinite alternate delay_500ms"></div>
+			</div>
+			<div class="page_slide hide">
+				<div class="endBg"><img src="images/endBg.png"></div>
+				<div class="endCloudys fadeIn animated2 delay_1100ms"><img src="images/endCloudys.png" class="scaleAlways animated alternate infinite"></div>
+				<div class="endLogo"><img src="images/endLogo.png" class="fadeIn animated delay_300ms"></div>
+				<div class="endTxt"><img src="images/endTxt.png" class="bounceInDown animated delay_800ms"></div>
+				<div class="endMail"><img src="images/endMail.png" class="bounceInDown animated delay_900ms"></div>
+				<div class="endClickGuide"><img src="images/endClickGuide.png" class="bounceInDown animated delay_1s"></div>
+				<div class="endAvatar bounce animated alternate infinite" onclick="document.location='http://mp.weixin.qq.com/s?__biz=MzAxMzU0NTAwNg==&mid=213225047&idx=1&sn=39477a33f09d3aa9872540c79ac272ef#rd';"><img src="images/endAvatar.png" class="bounceInDown animated delay_1200ms"></div>
+				<div class="endBottomTxt"><img src="images/endBottomTxt.png" class="bounceInDown animated delay_1100ms"></div>
+				
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="assets/js/zepto.min.js" ></script>
+	<script type="text/javascript" src="js/demo.js" ></script>
+	<script type="text/javascript" src="assets/js/jquery-1.11.0.js" ></script>
+	<script>
+		$(".lightOnPage").hide();
+		$(".lightOff").click(function(){
+			$(".lightOnPage").show();
+		})
+		
+$("#ado").get(0).play();
+		$("#musicBtn").on("click",function(){
+		if($("#ado").get(0).muted){
+			$("#ado").get(0).muted = false;
+			$(this).attr("src","images/musicBtn.png");
+		}else{
+			$("#ado").get(0).muted = true;
+			$(this).attr("src","images/musicBtnOff.png");
+		}
+	});		
+	</script>
+</html>
+

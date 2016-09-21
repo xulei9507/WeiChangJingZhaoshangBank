@@ -1,0 +1,521 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.music{
+    position: fixed;
+    top:2%;
+    right:3%;
+    z-index: 9999;
+    width: 15%; 
+}
+.mask{
+    display: none;
+}
+//竖屏--- 屏幕宽度小于高度
+//@media (orientation:portrait){}
+//表示的是横屏 --   屏幕宽度大于高度
+@media (orientation:landscape){
+    .mask{
+        position: fixed;
+        z-index: 99;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.6);
+        font-size: 50px;
+        color: #fff;
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+    }
+    .music{
+        position: fixed;
+        top:2%;
+        right:-13%;
+        z-index: 9999;
+        width: 15%; 
+    }
+}
+img{
+    width: 100%;
+}
+.ab{
+    position: absolute;
+}
+.arrowUp{
+    .ab;
+    width: 12%;
+    left: 44%;
+    bottom: 5%;
+}
+.page_box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    .page_slide{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        
+        &:nth-child(1){
+            background-color: #3e88f1;
+            width: 100%;
+            height: 100%;
+            
+            .index-build{
+                width: 100%;
+                .ab;
+                bottom: 0;
+                left: 0;
+            }
+            .index-cloud{
+                width: 96%;
+                .ab;
+                top: 5%;
+                left: 2%;
+            }
+            .index-stars{
+                .ab;
+                width: 98%;
+                left: 1%;
+                top: 0;
+            }
+            .index-elements{
+                .ab;
+                bottom: 0;
+                z-index: 2;
+            }
+            .index-text{
+                .ab;
+                width: 60%;
+                left: 20%;
+                top: 8.5%;
+            }
+            .index-flowers{
+                .ab;
+                width: 68%;
+                left: 10%;
+                top: 10%;
+                height: 21%;
+                img{
+                    .ab;
+                    &:nth-child(1){
+                        width: 24%;
+                    }
+                    &:nth-child(2){
+                        width: 22%;
+                        right: 0;
+                        bottom: 0;
+                    }
+                }
+            }
+            .index-flight{
+                .ab;
+                width: 86%;
+                left: 7%;
+                top: 35%;
+            }
+
+        }
+        &:nth-child(2){
+            background-color: #000;
+            .wasBg{
+                .ab;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                img{
+                    height: 100%;
+                }
+            }
+            .wasStar{
+                .ab;
+                width: 100%;
+                height: 100%;
+            }
+            .wasText{
+                .ab;
+                width:55%;
+                top: 40%;
+                left: 20%;
+                img{
+                    &:nth-child(1){
+                        margin-bottom: 20%;
+                    }
+                }
+            }
+        }
+        &:nth-child(3){
+            background-color: #000;
+            .earlyPage{
+                width: 100%;
+                height: 100%;
+                background-color: #01172c;
+                .earlyBg{
+                    .ab;
+                    width: 100%;
+                    top: 0;
+                }
+                .earlyBuilding{
+                    .ab;
+                    width: 100%;
+                    bottom: 0;
+                }
+                .earlyTitle{
+                    .ab;
+                    width: 26%;
+                    left: 0;
+                    top: 5%;
+                }
+                .lastBusStation{
+                    width: 100%;
+                    .ab;
+                    bottom: 0;
+                }
+                .lastBusTitle{
+                    .ab;
+                    width: 30%;
+                    top: 5%;
+                    left: 0;
+                }
+                .lastBusAvatar{
+                    .ab;
+                    width: 26%;
+                    right: 0;
+                    bottom: 8%;
+                }
+                .bus{
+                    width: 80%;
+                    .ab;
+                    bottom:5%;
+                    left: 0;
+                }
+            }
+            .myTeamBg{
+                width: 100%;
+                .ab;
+                top: 0;
+            }
+            .myTeamWall{
+                .ab;
+                width: 29%;
+                right: 0;
+                bottom: 0;
+            }
+            .myTeamAvatar{
+                .ab;
+                width: 30%;
+                right: 5%;
+                top: 20%;
+            }
+            .myTeamTxt{
+                .ab;
+                width: 12%;
+                left: 15%;
+                top: 30%;
+            }
+            .myTeamTxt01{
+                .ab;
+                width: 19%;
+                left: 15%;
+                top: 34%;
+            }
+            .myTeamTxt02{
+                .ab;
+                width: 19%;
+                left: 15%;
+                top: 40%;
+            }
+            .myTeamTxt03{
+                .ab;
+                width: 19%;
+                left: 15%;
+                top: 46%;
+            }
+            .myteamWhereTxt{
+                .ab;
+                width: 44%;
+                left: 28%;
+                bottom: 12%;
+            }
+        }
+        &:nth-child(4){
+            background-color: #302e5c;
+            .lightOffBg{
+                width: 100%;
+//              height: 100%;
+                .ab;
+                bottom: 0;
+                img{
+//                  height: 100%;
+                }
+            }
+            .cornerWall{
+                .ab;
+                width: 20%;
+                right: 0;
+                bottom: 0;
+            }
+            .cornerTitle{
+                .ab;
+                width: 50%;
+                right: 0;
+                top: 5%;
+            }  
+            .lightOff{
+                .ab;
+                width: 36%;
+                left: 2%;
+                bottom: 0;
+            }       
+            .clickGuide{
+                .ab;
+                width: 48%;
+                left: 29%;
+                top: 26%;
+            } 
+            .lightOnPage{
+                .ab;
+//              display: none;
+                width: 100%;
+                height: 100%;
+                background-color: #1a7fdc;
+                
+                .lightOnBg{
+                    .ab;
+                    width: 100%;
+                    bottom: 0;
+                }
+                .lightOn{
+                    .ab;
+                    width: 36%;
+                    left: 2%;
+                    bottom: 0;
+                }
+                .lightFlowers{
+                    .ab;
+                    width: 28%;
+                    bottom: -5px;
+                    right: 5%;
+                }
+                .weKnowYou{
+                    .ab;
+                    width: 53%;
+                    top: 25%;
+                    right: 14%;
+                }
+            }  
+        }
+        &:nth-child(5){
+            background-color: #658b0e;
+            .aboutBg{
+                .ab;
+                width: 100%;
+                bottom: 0;
+                left: 0;
+            }
+            .footCity{
+                width: 100%;
+                .ab;
+                top: 0;
+            }
+            .footAvatar{
+                .ab;
+                width: 65%;
+                right: 5%;
+                top: 20%;
+            }
+            .footTa{
+                .ab;
+                width: 80%;
+                bottom: 30%;
+                left: 10%;
+            }
+            .footTx{
+                .ab;
+                width: 50%;
+                bottom: 30%;
+                left: 25%;
+            }
+        }
+        &:nth-child(6){
+            background-color: #837571;
+            .runBg{
+                .ab;
+                width: 100%;
+                top: 0;
+                left: 0;
+            }
+            .runAvatar{
+                .ab;
+                width: 30%;
+                left: 15%;
+                top: 15%;
+            }
+            .runTa{
+                .ab;
+                width: 80%;
+                bottom: 30%;
+                left: 10%;
+            }
+            .runTxt{
+                .ab;
+                width: 55%;
+                bottom: 38%;
+                left: 22%;
+            }
+        }
+        &:nth-child(7){
+            background-color: #4add9d;
+            .salaryBg{
+                .ab;
+                width: 85%;
+                left: 7.5%;
+                top: 5%;
+            }
+            .salaryAvatar{
+                .ab;
+                width: 46%;
+                top: 8%;
+                left: 22%;
+            }
+            .salaryTa{
+                .ab;
+                width: 80%;
+                bottom: 25%;
+                left: 10%;
+            }
+            .salaryTxt{
+                .ab;
+                width: 56%;
+                bottom: 28%;
+                left: 22%;
+            }
+        }
+        &:nth-child(8){
+            background-color: #b5effd;
+            .introFlowers{
+                .ab;
+                width: 22%;
+                left: 4%;
+                top: 5%;
+            }
+            .intro-txt{
+                background-color: #FC5955;
+                padding: 8px;
+                border-radius: 15px;
+                margin:0 10px;
+                height: 70%;
+                .ab;
+                top: 12%;
+//              z-index: 3;
+//              overflow: hidden;
+                .intro-txt-inner{
+                    background-color: #ef3d38;
+                    padding: 50px 10px 80px;
+                    border-radius: 3px;
+                    color: #fff;
+                    font-size: 14px;
+                    line-height: 150%;
+                    height: 67%;
+                    text-indent: 28px;
+                }
+            }
+            .introLogo{
+                width: 50%;
+                .ab;
+                left: 25%;
+                top: 8%;
+            }
+            .introCloudy{
+                .ab;
+                top: 10%;
+                width: 92%;
+                left: 4%;
+                img{
+                    height: 75%;
+                }
+            }
+            .introAvatar{
+                width: 30%;
+                .ab;
+                right: 0;
+                bottom: 0;
+            }
+            .introStar{
+                .ab;
+                width: 12%;
+                right: 27%;
+                bottom: 16%;
+            }
+        }
+        &:nth-child(9){
+            background-color: #3e88f1;
+            width: 100%;
+            height: 100%;
+            .endBg{
+                width: 100%;
+                height: 100%;
+                .ab;
+                top: 0;
+                left: 0;
+                img{
+                    height: 100%;
+                }
+            }
+            .endCloudys{
+                width: 96%;
+                .ab;
+                top: 10%;
+                left: 2%;
+            }
+            .endLogo{
+                width: 54%;
+                .ab;
+                top: 8%;
+                left: 24%;
+            }
+            .endTxt{
+                .ab;
+                width: 56%;
+                top: 20%;
+                left: 22%;
+            }
+            .endMail{
+                .ab;
+                width: 60%;
+                top: 34%;
+                left: 20%;
+            }
+            .endClickGuide{
+                .ab;
+                width: 32%;
+                top: 45%;
+                left: 34%;
+            }
+            .endAvatar{
+                .ab;
+                width: 60%;
+                left: 20%;
+                top: 50%;
+            }
+            .endBottomTxt{
+                .ab;
+                width: 40%;
+                bottom: 2%;
+                left: 30%;
+            }
+        }
+    }
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
